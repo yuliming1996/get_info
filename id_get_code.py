@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # 读取数据
-data_file = "info.csv"  # CSV文件格式："姓名,身份证号,密码"
+data_file = "info_code.csv"  # CSV文件格式："姓名,身份证号,密码"
 df = pd.read_csv(data_file)
 
 st.title("获取密码")
